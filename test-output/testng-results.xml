@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-08-29T19:46:00 IST" name="MAster_suit" finished-at="2024-08-29T19:46:16 IST" duration-ms="15439">
+    <groups>
+      <group name="Master">
+        <method signature="TC02_LoginPage.logintest()[pri:0, instance:testCases.TC02_LoginPage@4c2cc639]" name="logintest" class="testCases.TC02_LoginPage"/>
+      </group> <!-- Master -->
+      <group name="Sanity">
+        <method signature="TC02_LoginPage.logintest()[pri:0, instance:testCases.TC02_LoginPage@4c2cc639]" name="logintest" class="testCases.TC02_LoginPage"/>
+      </group> <!-- Sanity -->
+    </groups>
+    <test started-at="2024-08-29T19:46:00 IST" name="Suraj_Test" finished-at="2024-08-29T19:46:16 IST" duration-ms="15439">
+      <class name="testCases.TC02_LoginPage">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC02_LoginPage@4c2cc639]" started-at="2024-08-29T19:46:01 IST" name="setup" finished-at="2024-08-29T19:46:05 IST" duration-ms="3792" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="logintest()[pri:0, instance:testCases.TC02_LoginPage@4c2cc639]" started-at="2024-08-29T19:46:05 IST" name="logintest" finished-at="2024-08-29T19:46:15 IST" duration-ms="10535" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC02_LoginPage@4c2cc639]" started-at="2024-08-29T19:46:15 IST" name="teardown" finished-at="2024-08-29T19:46:16 IST" duration-ms="793" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testCases.TC02_LoginPage -->
+    </test> <!-- Suraj_Test -->
+  </suite> <!-- MAster_suit -->
+</testng-results>

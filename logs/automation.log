@@ -1,0 +1,21 @@
+2024-08-29 19:41:31 INFO  TC01_Account_RegistrationTest:14 - *********TC01_Account_RegistrationTest TEsting started*******
+2024-08-29 19:41:31 INFO  TC01_Account_RegistrationTest:16 - Creating the homepage object
+2024-08-29 19:41:32 INFO  TC01_Account_RegistrationTest:21 - clicked on Myaccont Link
+2024-08-29 19:41:34 INFO  TC01_Account_RegistrationTest:23 - clicked on Registeration link
+2024-08-29 19:41:34 INFO  TC01_Account_RegistrationTest:25 - providing registration details
+2024-08-29 19:41:36 INFO  TC01_Account_RegistrationTest:50 - Test finished
+2024-08-29 19:41:41 INFO  TC02_LoginPage:18 - Test Starting
+2024-08-29 19:41:50 INFO  TC02_LoginPage:21 - clicking on login
+2024-08-29 19:41:50 INFO  TC02_LoginPage:24 - creating object of loginPage
+2024-08-29 19:45:03 INFO  Utils:112 - [TestNG] Running:
+  D:\Frameworks\NopCommerce1.0\Master.xml
+
+2024-08-29 19:45:10 INFO  TC02_LoginPage:18 - Test Starting
+2024-08-29 19:45:18 INFO  TC02_LoginPage:21 - clicking on login
+2024-08-29 19:45:19 INFO  TC02_LoginPage:24 - creating object of loginPage
+2024-08-29 19:46:00 INFO  Utils:112 - [TestNG] Running:
+  D:\Frameworks\NopCommerce1.0\Master.xml
+
+2024-08-29 19:46:05 INFO  TC02_LoginPage:18 - Test Starting
+2024-08-29 19:46:14 INFO  TC02_LoginPage:21 - clicking on login
+2024-08-29 19:46:14 INFO  TC02_LoginPage:24 - creating object of loginPage

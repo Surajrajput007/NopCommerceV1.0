@@ -1,0 +1,12 @@
+D:\Frameworks\NopCommerce1.0\src\test\java\pageObjects\BasePage.java
+D:\Frameworks\NopCommerce1.0\src\test\java\pageObjects\P01_HomePage.java
+D:\Frameworks\NopCommerce1.0\src\test\java\pageObjects\P02_Reister.java
+D:\Frameworks\NopCommerce1.0\src\test\java\pageObjects\P03_Loginpage.java
+D:\Frameworks\NopCommerce1.0\src\test\java\pageObjects\P04_Myaccount.java
+D:\Frameworks\NopCommerce1.0\src\test\java\testBase\BaseClass.java
+D:\Frameworks\NopCommerce1.0\src\test\java\testCases\TC01_Account_RegistrationTest.java
+D:\Frameworks\NopCommerce1.0\src\test\java\testCases\TC02_LoginPage.java
+D:\Frameworks\NopCommerce1.0\src\test\java\testCases\TC03_LoginDPT.java
+D:\Frameworks\NopCommerce1.0\src\test\java\utilities\D01_LoginData.java
+D:\Frameworks\NopCommerce1.0\src\test\java\utilities\ExcelUtities.java
+D:\Frameworks\NopCommerce1.0\src\test\java\utilities\ExtentReportManager.java

@@ -1,0 +1,8 @@
+29:08:2024 - 19:11:53.216 INFO testCases.TC01_Account_RegistrationTest [TestNG-tests-3] - *********TC01_Account_RegistrationTest TEsting started*******
+29:08:2024 - 19:11:53.238 INFO testCases.TC01_Account_RegistrationTest [TestNG-tests-3] - Creating the homepage object
+29:08:2024 - 19:11:53.573 INFO testCases.TC01_Account_RegistrationTest [TestNG-tests-3] - clicked on Myaccont Link
+29:08:2024 - 19:11:54.326 INFO testCases.TC01_Account_RegistrationTest [TestNG-tests-3] - clicked on Registeration link
+29:08:2024 - 19:11:54.326 INFO testCases.TC01_Account_RegistrationTest [TestNG-tests-3] - providing registration details
+29:08:2024 - 19:11:55.711 INFO testCases.TC01_Account_RegistrationTest [TestNG-tests-3] - Test finished
+29:08:2024 - 19:12:07.689 INFO testCases.TC02_LoginPage [TestNG-tests-3] - Test Starting
+29:08:2024 - 19:12:13.390 INFO testCases.TC02_LoginPage [TestNG-tests-1] - Test Starting
