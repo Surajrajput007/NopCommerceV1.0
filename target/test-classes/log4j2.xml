@@ -19,15 +19,15 @@
 		</Console>
 	</Appenders>
 	<Loggers>
-		<Logger name="com.loggers.one.App" level="error"
+		<Logger name="com.loggers.one.App" level="All"
 			additivity="false">
 			<AppenderRef ref="Console" />
 		</Logger>
 		<Logger name="com.loggers.two" level="error" additivity="false">
 			<AppenderRef ref="RollingFile" />
 		</Logger>
-		<Root level="Info">
-			<AppenderRef ref="RollingFile" />
+		<Root level="All">
+			<AppenderRef ref="Console" />
 		</Root>
 	</Loggers>
 </Configuration>

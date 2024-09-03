@@ -1,1 +1,5 @@
-02:09:2024 - 17:56:08.063 INFO testCases.TC01_Account_RegistrationTest [main] - Test finished
+03:09:2024 - 13:23:43.884 INFO testCases.TC01_Account_RegistrationTest [main] - Creating the homepage object
+03:09:2024 - 13:23:45.191 INFO testCases.TC01_Account_RegistrationTest [main] - clicked on Myaccont Link
+03:09:2024 - 13:23:46.092 INFO testCases.TC01_Account_RegistrationTest [main] - clicked on Registeration link
+03:09:2024 - 13:23:46.096 INFO testCases.TC01_Account_RegistrationTest [main] - providing registration details
+03:09:2024 - 13:23:48.113 INFO testCases.TC01_Account_RegistrationTest [main] - Test finished

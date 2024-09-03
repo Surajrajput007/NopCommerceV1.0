@@ -5,15 +5,16 @@
     <listener class-name="utilities.ExtentReportManager"/>
   </listeners>
   <test thread-count="5" name="Suraj_Test(failed)">
+    <parameter name="os" value="windows"/>
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="testCases.TC03_LoginDPT">
+      <class name="testCases.TC01_Account_RegistrationTest">
         <methods>
           <include name="teardown"/>
           <include name="setup"/>
-          <include name="Login_DAtadrivenTest" invocation-numbers="4 5"/>
+          <include name="Account_registration"/>
         </methods>
-      </class> <!-- testCases.TC03_LoginDPT -->
+      </class> <!-- testCases.TC01_Account_RegistrationTest -->
     </classes>
   </test> <!-- Suraj_Test(failed) -->
 </suite> <!-- Failed suite [MAster_suit] -->
