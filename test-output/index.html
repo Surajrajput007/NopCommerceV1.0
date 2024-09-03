@@ -103,7 +103,7 @@
                     <div class="method-list-content passed suite-MAster_suit">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-MAster_suit" title="testCases.TC02_LoginPage" class="method navigator-link" hash-for-method="logintest">logintest</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-MAster_suit" title="testCases.TC01_Account_RegistrationTest" class="method navigator-link" hash-for-method="Account_registration">Account_registration</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-MAster_suit -->
@@ -121,14 +121,14 @@
           <div class="suite-MAster_suit-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">testCases.TC02_LoginPage</span>
+              <span class="class-name">testCases.TC01_Account_RegistrationTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="logintest">
-                  </a> <!-- logintest -->
-                  <span class="method-name">logintest</span>
+                  <a name="Account_registration">
+                  </a> <!-- Account_registration -->
+                  <span class="method-name">Account_registration</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -147,9 +147,10 @@
     &lt;listener class-name=&quot;utilities.ExtentReportManager&quot;/&gt;
   &lt;/listeners&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Suraj_Test&quot;&gt;
+    &lt;parameter name=&quot;os&quot; value=&quot;windows&quot;/&gt;
     &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;testCases.TC02_LoginPage&quot;/&gt;
+      &lt;class name=&quot;testCases.TC01_Account_RegistrationTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Suraj_Test --&gt;
 &lt;/suite&gt; &lt;!-- MAster_suit --&gt;
@@ -177,15 +178,15 @@
               <span class="test-group-name">Master</span>
               <br/>
               <div class="method-in-group">
-                <span class="method-in-group-name">logintest</span>
+                <span class="method-in-group-name">Account_registration</span>
                 <br/>
               </div> <!-- method-in-group -->
             </div> <!-- test-group -->
             <div class="test-group">
-              <span class="test-group-name">Sanity</span>
+              <span class="test-group-name">Regression</span>
               <br/>
               <div class="method-in-group">
-                <span class="method-in-group-name">logintest</span>
+                <span class="method-in-group-name">Account_registration</span>
                 <br/>
               </div> <!-- method-in-group -->
             </div> <!-- test-group -->
@@ -207,14 +208,14 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'logintest')
-data.setCell(0, 2, 'testCases.TC02_LoginPage')
-data.setCell(0, 3, 10535);
+data.setCell(0, 1, 'Account_registration')
+data.setCell(0, 2, 'testCases.TC01_Account_RegistrationTest')
+data.setCell(0, 3, 3002);
 window.suiteTableData['MAster_suit']= { tableData: data, tableDiv: 'times-div-MAster_suit'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 10 seconds</span>
+              <span class="suite-total-time">Total running time: 3 seconds</span>
               <div id="times-div-MAster_suit">
               </div> <!-- times-div-MAster_suit -->
             </div> <!-- times-div -->
@@ -240,18 +241,18 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">testCases.TC02_LoginPage</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">testCases.TC01_Account_RegistrationTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
-                <span class="method-name">setup(chrome)</span>
+                <span class="method-name">setup(windows, chrome)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
-                <span class="method-name">logintest</span>
-                <span class="method-start">3817 ms</span>
+                <span class="method-name">Account_registration</span>
+                <span class="method-start">8353 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">14369 ms</span>
+                <span class="method-start">11389 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

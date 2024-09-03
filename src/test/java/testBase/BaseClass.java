@@ -28,8 +28,8 @@ public class BaseClass {
 public Logger logger;
 	public static WebDriver driver;
 	@BeforeClass(groups = {"Regression","Master","Sanity","DataDriven"})
-	@Parameters({"browser"})
-	public void setup(String browser) throws IOException {
+	@Parameters({"os","browser"})
+	public void setup(String os,String browser) throws IOException {
 		FileReader file = new FileReader("D:\\Frameworks\\NopCommerce1.0\\src\\test\\resources\\configdata.properties");
 		p = new Properties();
 		p.load(file);

@@ -16,6 +16,7 @@
 <listener class-name="utilities.ExtentReportManager"/>
 </listeners> 
   <test thread-count="5" name="Suraj_Test">
+  <parameter name="os" value="windows"></parameter>
   <parameter name="browser" value="chrome"></parameter>
     <classes>
       <class name="testCases.TC01_Account_RegistrationTest"/>
