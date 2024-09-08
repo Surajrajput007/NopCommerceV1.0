@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="TestSuite" time="22.243" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="TestSuite" time="33.479" tests="2" errors="0" skipped="0" failures="1">
   <properties>
-    <property name="java.specification.version" value="18"/>
+    <property name="java.specification.version" value="21"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="sun.awt.enableExtraMouseButtons" value="true"/>
@@ -12,31 +12,31 @@
     <property name="java.vendor.url" value="https://java.oracle.com/"/>
     <property name="user.timezone" value="Asia/Calcutta"/>
     <property name="os.name" value="Windows 11"/>
-    <property name="java.vm.specification.version" value="18"/>
+    <property name="java.vm.specification.version" value="21"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IN"/>
-    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-18.0.2.1\bin"/>
-    <property name="sun.java.command" value="C:\Users\hp\AppData\Local\Temp\surefire12544541903409704969\surefirebooter-20240830160511127_3.jar C:\Users\hp\AppData\Local\Temp\surefire12544541903409704969 2024-08-30T16-05-10_900-jvmRun1 surefire-20240830160511127_1tmp surefire_0-20240830160511127_2tmp"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-21\bin"/>
+    <property name="sun.java.command" value="C:\Users\hp\AppData\Local\Temp\surefire13062606589092134631\surefirebooter-20240907212652285_3.jar C:\Users\hp\AppData\Local\Temp\surefire13062606589092134631 2024-09-07T21-26-52_130-jvmRun1 surefire-20240907212652285_1tmp surefire_0-20240907212652285_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="D:\Frameworks\NopCommerce1.0\target\test-classes;D:\Frameworks\NopCommerce1.0\target\classes;C:\Users\hp\.m2\repository\org\seleniumhq\selenium\selenium-java\4.23.1\selenium-java-4.23.1.jar;C:\Users\hp\.m2\repository\org\seleniumhq\selenium\selenium-api\4.23.1\selenium-api-4.23.1.jar;C:\Users\hp\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.23.1\selenium-chrome-driver-4.23.1.jar;C:\Users\hp\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\hp\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.23.1\selenium-chromium-driver-4.23.1.jar;C:\Users\hp\.m2\repository\org\seleniumhq\selenium\selenium-json\4.23.1\selenium-json-4.23.1.jar;C:\Users\hp\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.23.1\selenium-manager-4.23.1.jar;C:\Users\hp\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v125\4.23.1\selenium-devtools-v125-4.23.1.jar;C:\Users\hp\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v126\4.23.1\selenium-devtools-v126-4.23.1.jar;C:\Users\hp\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v127\4.23.1\selenium-devtools-v127-4.23.1.jar;C:\Users\hp\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.23.1\selenium-devtools-v85-4.23.1.jar;C:\Users\hp\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.23.1\selenium-edge-driver-4.23.1.jar;C:\Users\hp\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.23.1\selenium-firefox-driver-4.23.1.jar;C:\Users\hp\.m2\repository\org\seleniumhq\selenium\selenium-http\4.23.1\selenium-http-4.23.1.jar;C:\Users\hp\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\hp\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.23.1\selenium-ie-driver-4.23.1.jar;C:\Users\hp\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.23.1\selenium-remote-driver-4.23.1.jar;C:\Users\hp\.m2\repository\com\google\guava\guava\33.2.1-jre\guava-33.2.1-jre.jar;C:\Users\hp\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\hp\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\hp\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\hp\.m2\repository\org\checkerframework\checker-qual\3.42.0\checker-qual-3.42.0.jar;C:\Users\hp\.m2\repository\com\google\errorprone\error_prone_annotations\2.26.1\error_prone_annotations-2.26.1.jar;C:\Users\hp\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\hp\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.25.0-alpha\opentelemetry-semconv-1.25.0-alpha.jar;C:\Users\hp\.m2\repository\io\opentelemetry\opentelemetry-api\1.40.0\opentelemetry-api-1.40.0.jar;C:\Users\hp\.m2\repository\io\opentelemetry\opentelemetry-context\1.40.0\opentelemetry-context-1.40.0.jar;C:\Users\hp\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.40.0\opentelemetry-exporter-logging-1.40.0.jar;C:\Users\hp\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.40.0\opentelemetry-sdk-common-1.40.0.jar;C:\Users\hp\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.40.0\opentelemetry-sdk-extension-autoconfigure-spi-1.40.0.jar;C:\Users\hp\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.40.0\opentelemetry-sdk-extension-autoconfigure-1.40.0.jar;C:\Users\hp\.m2\repository\io\opentelemetry\opentelemetry-api-incubator\1.40.0-alpha\opentelemetry-api-incubator-1.40.0-alpha.jar;C:\Users\hp\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.40.0\opentelemetry-sdk-trace-1.40.0.jar;C:\Users\hp\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.40.0\opentelemetry-sdk-1.40.0.jar;C:\Users\hp\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.40.0\opentelemetry-sdk-metrics-1.40.0.jar;C:\Users\hp\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.40.0\opentelemetry-sdk-logs-1.40.0.jar;C:\Users\hp\.m2\repository\net\bytebuddy\byte-buddy\1.14.18\byte-buddy-1.14.18.jar;C:\Users\hp\.m2\repository\org\seleniumhq\selenium\selenium-os\4.23.1\selenium-os-4.23.1.jar;C:\Users\hp\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\hp\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.23.1\selenium-safari-driver-4.23.1.jar;C:\Users\hp\.m2\repository\org\seleniumhq\selenium\selenium-support\4.23.1\selenium-support-4.23.1.jar;C:\Users\hp\.m2\repository\org\apache\poi\poi\5.3.0\poi-5.3.0.jar;C:\Users\hp\.m2\repository\commons-codec\commons-codec\1.17.0\commons-codec-1.17.0.jar;C:\Users\hp\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\hp\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\hp\.m2\repository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar;C:\Users\hp\.m2\repository\org\apache\commons\commons-email\1.6.0\commons-email-1.6.0.jar;C:\Users\hp\.m2\repository\com\sun\mail\jakarta.mail\1.6.7\jakarta.mail-1.6.7.jar;C:\Users\hp\.m2\repository\com\sun\activation\jakarta.activation\1.2.1\jakarta.activation-1.2.1.jar;C:\Users\hp\.m2\repository\org\apache\poi\poi-ooxml\5.3.0\poi-ooxml-5.3.0.jar;C:\Users\hp\.m2\repository\org\apache\poi\poi-ooxml-lite\5.3.0\poi-ooxml-lite-5.3.0.jar;C:\Users\hp\.m2\repository\org\apache\xmlbeans\xmlbeans\5.2.1\xmlbeans-5.2.1.jar;C:\Users\hp\.m2\repository\org\apache\commons\commons-compress\1.26.2\commons-compress-1.26.2.jar;C:\Users\hp\.m2\repository\com\github\virtuald\curvesapi\1.08\curvesapi-1.08.jar;C:\Users\hp\.m2\repository\org\apache\logging\log4j\log4j-core\2.23.1\log4j-core-2.23.1.jar;C:\Users\hp\.m2\repository\org\apache\logging\log4j\log4j-api\2.23.1\log4j-api-2.23.1.jar;C:\Users\hp\.m2\repository\org\apache\logging\log4j\log4j-slf4j-impl\2.23.1\log4j-slf4j-impl-2.23.1.jar;C:\Users\hp\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\hp\.m2\repository\commons-io\commons-io\2.16.1\commons-io-2.16.1.jar;C:\Users\hp\.m2\repository\org\apache\commons\commons-lang3\3.15.0\commons-lang3-3.15.0.jar;C:\Users\hp\.m2\repository\org\testng\testng\7.10.2\testng-7.10.2.jar;C:\Users\hp\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\hp\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\hp\.m2\repository\com\aventstack\extentreports\5.1.2\extentreports-5.1.2.jar;C:\Users\hp\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\hp\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\hp\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\hp\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\hp\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\hp\.m2\repository\io\basc\framework\log4j2\1.8.3\log4j2-1.8.3.jar;C:\Users\hp\.m2\repository\io\basc\framework\core\1.8.3\core-1.8.3.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\hp"/>
     <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
-    <property name="java.version.date" value="2022-08-18"/>
-    <property name="java.home" value="C:\Program Files\Java\jdk-18.0.2.1"/>
+    <property name="java.version.date" value="2024-07-16"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-21"/>
     <property name="file.separator" value="\"/>
     <property name="basedir" value="D:\Frameworks\NopCommerce1.0"/>
-    <property name="style.color" value="always"/>
     <property name="java.vm.compressedOopsMode" value="32-bit"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\hp\AppData\Local\Temp\surefire12544541903409704969\surefirebooter-20240830160511127_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\hp\AppData\Local\Temp\surefire13062606589092134631\surefirebooter-20240907212652285_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
-    <property name="java.runtime.version" value="18.0.2.1+1-1"/>
+    <property name="java.runtime.version" value="21.0.4+8-LTS-274"/>
     <property name="user.name" value="hp"/>
+    <property name="stdout.encoding" value="Cp1252"/>
     <property name="path.separator" value=";"/>
     <property name="os.version" value="10.0"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
@@ -45,22 +45,205 @@
     <property name="localRepository" value="C:\Users\hp\.m2\repository"/>
     <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
     <property name="java.io.tmpdir" value="C:\Users\hp\AppData\Local\Temp\"/>
-    <property name="java.version" value="18.0.2.1"/>
+    <property name="java.version" value="21.0.4"/>
     <property name="user.dir" value="D:\Frameworks\NopCommerce1.0"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="sun.os.patch.level" value=""/>
     <property name="native.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk-18.0.2.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files\Java\jdk-21\bin;C:\Program Files\apache-jmeter-5.6.3\bin;C:\Program Files\Git\cmd;D:\apache-maven-3.9.9\bin;C:\Program Files\Java\jdk-17\bin;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-21\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files\apache-jmeter-5.6.3\bin;C:\Program Files\Git\cmd;C:\Program Files\Docker\Docker\resources\bin;D:\apache-maven-3.9.9\bin;C:\Program Files\Java\jdk-21\bin;C:\Program Files\Java\jdk-17\bin;."/>
     <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
     <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="java.vm.version" value="18.0.2.1+1-1"/>
+    <property name="java.vm.version" value="21.0.4+8-LTS-274"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
-    <property name="java.class.version" value="62.0"/>
+    <property name="java.class.version" value="65.0"/>
   </properties>
-  <testcase name="Account_registration" classname="testCases.TC01_Account_RegistrationTest" time="11.598">
-    <system-err><![CDATA[Aug 30, 2024 4:05:18 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+  <testcase name="Account_registration" classname="testCases.TC01_Account_RegistrationTest" time="2.695">
+    <system-out><![CDATA[21:26:53.393 [main] DEBUG org.testng.TestNG - suiteXmlPath: "D:\Frameworks\NopCommerce1.0\ParallelTesting.xml"
+21:26:53.621 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE BaseClass.setup(java.lang.String,java.lang.String)[pri:0, instance:null] -1422203584
+21:26:53.621 [main] TRACE org.testng.internal.Graph - [Graph] ================ SORTING
+21:26:53.621 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
+21:26:53.621 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
+21:26:53.621 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+21:26:53.621 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE BaseClass.teardown()[pri:0, instance:null] 828881271
+21:26:53.621 [main] TRACE org.testng.internal.Graph - [Graph] ================ SORTING
+21:26:53.621 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
+21:26:53.621 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
+21:26:53.621 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+21:26:53.637 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE BaseClass.setup(java.lang.String,java.lang.String)[pri:0, instance:null] -1422203584
+21:26:53.637 [main] TRACE org.testng.internal.Graph - [Graph] ================ SORTING
+21:26:53.637 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
+21:26:53.637 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
+21:26:53.637 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+21:26:53.637 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE BaseClass.teardown()[pri:0, instance:null] 828881271
+21:26:53.637 [main] TRACE org.testng.internal.Graph - [Graph] ================ SORTING
+21:26:53.637 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
+21:26:53.637 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
+21:26:53.637 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+21:26:53.637 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE BaseClass.setup(java.lang.String,java.lang.String)[pri:0, instance:null] -1422203584
+21:26:53.637 [main] TRACE org.testng.internal.Graph - [Graph] ================ SORTING
+21:26:53.637 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
+21:26:53.637 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
+21:26:53.637 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+21:26:53.637 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE BaseClass.teardown()[pri:0, instance:null] 828881271
+21:26:53.637 [main] TRACE org.testng.internal.Graph - [Graph] ================ SORTING
+21:26:53.637 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
+21:26:53.637 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
+21:26:53.637 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+21:26:53.651 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE TC01_Account_RegistrationTest.Account_registration()[pri:0, instance:testCases.TC01_Account_RegistrationTest@2dd29a59] 324633270
+21:26:53.651 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE TC02_LoginPage.logintest()[pri:0, instance:testCases.TC02_LoginPage@40dff0b7] 1733086620
+21:26:53.651 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE TC03_LoginDPT.Login_DAtadrivenTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC03_LoginDPT@7966baa7] -1015727057
+21:26:53.651 [main] TRACE org.testng.internal.Graph - [Graph] ================ SORTING
+21:26:53.651 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
+21:26:53.651 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
+21:26:53.651 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+21:26:53.689 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE BaseClass.setup(java.lang.String,java.lang.String)[pri:0, instance:null] -1422203584
+21:26:53.689 [main] TRACE org.testng.internal.Graph - [Graph] ================ SORTING
+21:26:53.689 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
+21:26:53.689 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
+21:26:53.689 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+21:26:53.689 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE BaseClass.teardown()[pri:0, instance:null] 828881271
+21:26:53.689 [main] TRACE org.testng.internal.Graph - [Graph] ================ SORTING
+21:26:53.689 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
+21:26:53.689 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
+21:26:53.689 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+21:26:53.696 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE BaseClass.setup(java.lang.String,java.lang.String)[pri:0, instance:null] -1422203584
+21:26:53.696 [main] TRACE org.testng.internal.Graph - [Graph] ================ SORTING
+21:26:53.696 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
+21:26:53.696 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
+21:26:53.696 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+21:26:53.696 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE BaseClass.teardown()[pri:0, instance:null] 828881271
+21:26:53.696 [main] TRACE org.testng.internal.Graph - [Graph] ================ SORTING
+21:26:53.696 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
+21:26:53.696 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
+21:26:53.696 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+21:26:53.705 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE BaseClass.setup(java.lang.String,java.lang.String)[pri:0, instance:null] -1422203584
+21:26:53.705 [main] TRACE org.testng.internal.Graph - [Graph] ================ SORTING
+21:26:53.705 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
+21:26:53.705 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
+21:26:53.705 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+21:26:53.708 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE BaseClass.teardown()[pri:0, instance:null] 828881271
+21:26:53.708 [main] TRACE org.testng.internal.Graph - [Graph] ================ SORTING
+21:26:53.708 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
+21:26:53.708 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
+21:26:53.708 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+21:26:53.710 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE TC01_Account_RegistrationTest.Account_registration()[pri:0, instance:testCases.TC01_Account_RegistrationTest@20b12f8a] 104339431
+21:26:53.710 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE TC02_LoginPage.logintest()[pri:0, instance:testCases.TC02_LoginPage@e84a8e1] 888243654
+21:26:53.710 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE TC03_LoginDPT.Login_DAtadrivenTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC03_LoginDPT@2e554a3b] 2019806147
+21:26:53.713 [main] TRACE org.testng.internal.Graph - [Graph] ================ SORTING
+21:26:53.713 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
+21:26:53.713 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
+21:26:53.713 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+21:26:53.714 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE BaseClass.setup(java.lang.String,java.lang.String)[pri:0, instance:null] -1422203584
+21:26:53.714 [main] TRACE org.testng.internal.Graph - [Graph] ================ SORTING
+21:26:53.714 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
+21:26:53.714 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
+21:26:53.714 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+21:26:53.714 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE BaseClass.teardown()[pri:0, instance:null] 828881271
+21:26:53.723 [main] TRACE org.testng.internal.Graph - [Graph] ================ SORTING
+21:26:53.723 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
+21:26:53.723 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
+21:26:53.723 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+21:26:53.730 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE BaseClass.setup(java.lang.String,java.lang.String)[pri:0, instance:null] -1422203584
+21:26:53.730 [main] TRACE org.testng.internal.Graph - [Graph] ================ SORTING
+21:26:53.730 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
+21:26:53.730 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
+21:26:53.730 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+21:26:53.730 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE BaseClass.teardown()[pri:0, instance:null] 828881271
+21:26:53.730 [main] TRACE org.testng.internal.Graph - [Graph] ================ SORTING
+21:26:53.730 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
+21:26:53.730 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
+21:26:53.730 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+21:26:53.730 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE BaseClass.setup(java.lang.String,java.lang.String)[pri:0, instance:null] -1422203584
+21:26:53.730 [main] TRACE org.testng.internal.Graph - [Graph] ================ SORTING
+21:26:53.730 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
+21:26:53.730 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
+21:26:53.730 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+21:26:53.742 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE BaseClass.teardown()[pri:0, instance:null] 828881271
+21:26:53.742 [main] TRACE org.testng.internal.Graph - [Graph] ================ SORTING
+21:26:53.742 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
+21:26:53.742 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
+21:26:53.742 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+21:26:53.752 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE TC01_Account_RegistrationTest.Account_registration()[pri:0, instance:testCases.TC01_Account_RegistrationTest@7d42c224] 1657383553
+21:26:53.752 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE TC02_LoginPage.logintest()[pri:0, instance:testCases.TC02_LoginPage@56aaaecd] 2098695090
+21:26:53.752 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE TC03_LoginDPT.Login_DAtadrivenTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC03_LoginDPT@522a32b1] -1674005447
+21:26:53.752 [main] TRACE org.testng.internal.Graph - [Graph] ================ SORTING
+21:26:53.758 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
+21:26:53.758 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
+21:26:53.758 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+21:26:59.521 [TestNG-tests-1] INFO  testCases.TC01_Account_RegistrationTest - *********TC01_Account_RegistrationTest TEsting started*******
+21:26:59.521 [TestNG-tests-1] INFO  testCases.TC01_Account_RegistrationTest - Creating the homepage object
+21:26:59.521 [TestNG-tests-2] INFO  testCases.TC01_Account_RegistrationTest - *********TC01_Account_RegistrationTest TEsting started*******
+21:26:59.521 [TestNG-tests-2] INFO  testCases.TC01_Account_RegistrationTest - Creating the homepage object
+21:27:00.585 [TestNG-tests-1] INFO  testCases.TC01_Account_RegistrationTest - clicked on Myaccont Link
+21:27:01.628 [TestNG-tests-2] INFO  testCases.TC01_Account_RegistrationTest - clicked on Myaccont Link
+21:27:05.106 [TestNG-tests-3] INFO  testCases.TC01_Account_RegistrationTest - *********TC01_Account_RegistrationTest TEsting started*******
+21:27:05.106 [TestNG-tests-3] INFO  testCases.TC01_Account_RegistrationTest - Creating the homepage object
+21:27:05.443 [TestNG-tests-3] INFO  testCases.TC01_Account_RegistrationTest - clicked on Myaccont Link
+21:27:06.448 [TestNG-tests-3] INFO  testCases.TC01_Account_RegistrationTest - clicked on Registeration link
+21:27:06.448 [TestNG-tests-3] INFO  testCases.TC01_Account_RegistrationTest - providing registration details
+21:27:07.768 [TestNG-tests-3] INFO  testCases.TC01_Account_RegistrationTest - Test finished
+]]></system-out>
+    <system-err><![CDATA[Sept 07, 2024 9:26:55 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 128, returning the closest version; found: 127; Please update to a Selenium version that supports CDP version 128
+Sept 07, 2024 9:26:57 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 128, returning the closest version; found: 127; Please update to a Selenium version that supports CDP version 128
 ]]></system-err>
+  </testcase>
+  <testcase name="teardown" classname="testCases.TC02_LoginPage" time="1.598">
+    <failure message="JdkWebSocket initial request execution error&#10;Build info: version: &apos;4.23.1&apos;, revision: &apos;656257d8e9&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.4&apos;&#10;Driver info: driver.version: FirefoxDriver" type="org.openqa.selenium.remote.http.ConnectionFailedException"><![CDATA[org.openqa.selenium.remote.http.ConnectionFailedException: 
+JdkWebSocket initial request execution error
+Build info: version: '4.23.1', revision: '656257d8e9'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.4'
+Driver info: driver.version: FirefoxDriver
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.openSocket(JdkHttpClient.java:248)
+	at org.openqa.selenium.devtools.Connection.<init>(Connection.java:89)
+	at org.openqa.selenium.firefox.FirefoxDriver.maybeGetDevTools(FirefoxDriver.java:335)
+	at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:439)
+	at org.openqa.selenium.firefox.FirefoxDriver.quit(FirefoxDriver.java:397)
+	at testBase.BaseClass.teardown(BaseClass.java:103)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+	at org.testng.internal.invokers.TestMethodWorker.invokeAfterClassConfigurations(TestMethodWorker.java:238)
+	at org.testng.internal.invokers.TestMethodWorker.invokeAfterClassMethods(TestMethodWorker.java:223)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:137)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: java.net.ConnectException
+	at java.net.http/jdk.internal.net.http.common.Utils.toConnectException(Utils.java:1028)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:227)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.checkRetryConnect(PlainHttpConnection.java:280)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.lambda$connectAsync$2(PlainHttpConnection.java:238)
+	at java.base/java.util.concurrent.CompletableFuture.uniHandle(CompletableFuture.java:934)
+	at java.base/java.util.concurrent.CompletableFuture$UniHandle.tryFire(CompletableFuture.java:911)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1773)
+	... 3 more
+Caused by: java.nio.channels.ClosedChannelException
+	at java.base/sun.nio.ch.SocketChannelImpl.ensureOpen(SocketChannelImpl.java:202)
+	at java.base/sun.nio.ch.SocketChannelImpl.beginConnect(SocketChannelImpl.java:786)
+	at java.base/sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:874)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.lambda$connectAsync$1(PlainHttpConnection.java:210)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:571)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:212)
+	... 9 more
+]]></failure>
+    <system-out><![CDATA[21:27:17.744 [TestNG-tests-3] INFO  testCases.TC02_LoginPage - Test Starting
+21:27:18.067 [TestNG-tests-3] INFO  testCases.TC02_LoginPage - clicking on login
+21:27:18.602 [TestNG-tests-3] INFO  testCases.TC02_LoginPage - creating object of loginPage
+]]></system-out>
   </testcase>
 </testsuite>

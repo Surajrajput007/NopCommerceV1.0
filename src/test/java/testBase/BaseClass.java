@@ -48,17 +48,25 @@ public Logger logger;
 	//	capabilities.setBrowserName("chrome");
 		
 		
-		// OS
-		if(os.equalsIgnoreCase("windows")) {
-			
-			capabilities.setPlatform(Platform.WIN11);
+		
+			//os
+			if(os.equalsIgnoreCase("windows"))
+			{
+				capabilities.setPlatform(Platform.WIN11);
 			}
-		else if(os.equalsIgnoreCase("mac")) {
-			capabilities.setPlatform(Platform.MAC);
-		}
-		else {
-			System.out.println("No Operating System");
-		return;
+			else if(os.equalsIgnoreCase("linux"))
+			{
+				capabilities.setPlatform(Platform.LINUX);
+				
+			}
+			else if (os.equalsIgnoreCase("mac"))
+			{
+				capabilities.setPlatform(Platform.MAC);
+			}
+			else
+			{
+				System.out.println("No matching os");
+				return;
 		}
 		
 		// Browsers

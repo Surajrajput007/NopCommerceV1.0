@@ -9,8 +9,8 @@
   <parameter name="browser" value="chrome"></parameter>
     <classes>
        <class name="testCases.TC01_Account_RegistrationTest"/> 
-        <!--   <class name="testCases.TC02_LoginPage"/> -->
-        <!--   <class name="testCases.TC03_LoginDPT"/> --> 
+          <class name="testCases.TC02_LoginPage"/> 
+           <class name="testCases.TC03_LoginDPT"/> 
     </classes>
   </test> <!-- Test -->
    </suite> <!-- Suite -->
